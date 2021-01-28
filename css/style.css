@@ -9716,3 +9716,18 @@ textarea.form-control {
   max-width: 700px;
 }
 
+/*google map*/
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:10.00%;
+  position:relative;
+  height:0;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:80%;
+  width:80%;
+  position:absolute;
+  }
